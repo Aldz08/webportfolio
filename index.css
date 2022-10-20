@@ -1,29 +1,48 @@
-* {font-family: 'Teko'}
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}
 
-.facebookIcon {
-  height: 80px;
-  width: 80px;
+.gmailIcon, .twitterIcon, .facebookIcon {
+  height: 40px;
+  width: 40px;
   object-position: center;
   object-fit: contain;
   border: none;
 }
 
-.gmailIcon {
-  height: 80px;
-  width: 80px;
-  object-position: center;
-  object-fit: contain;
-  border: none;
-}
-
-.twitterIcon {
-  height: 80px;
-  width: 80px;
-  object-position: center;
-  object-fit: contain;
-  border: none;
+.myName {
+  font-family: 'Caveat', cursive;
+  border-right: .015rem solid ;
+  padding-right: 2rem;
 }
 
 img {
   width: 150px;
+}
+
+body {
+  background-color: rgba(244, 225, 200, 0.326);
+  color: #0D1229;
+}
+
+.home-page {
+
+}
+
+.navibar {
+  background-color: white;
+}
+
+#projects, #tools, #contactme {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+footer {
+  line-height: .5;
+}
+
+#profilepic {
+  width: 500%;
+
 }
