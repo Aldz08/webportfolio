@@ -1,0 +1,29 @@
+* {font-family: 'Teko'}
+
+.facebookIcon {
+  height: 80px;
+  width: 80px;
+  object-position: center;
+  object-fit: contain;
+  border: none;
+}
+
+.gmailIcon {
+  height: 80px;
+  width: 80px;
+  object-position: center;
+  object-fit: contain;
+  border: none;
+}
+
+.twitterIcon {
+  height: 80px;
+  width: 80px;
+  object-position: center;
+  object-fit: contain;
+  border: none;
+}
+
+img {
+  width: 150px;
+}
