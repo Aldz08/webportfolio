@@ -1,5 +1,5 @@
 * {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .gmailIcon, .twitterIcon, .facebookIcon {
@@ -12,7 +12,7 @@
 
 .myName {
   font-family: 'Caveat', cursive;
-  border-right: .015rem solid ;
+  border-right: .015rem solid rgba(244, 225, 200, 0.527);
   padding-right: 2rem;
 }
 
@@ -25,12 +25,10 @@ body {
   color: #0D1229;
 }
 
-.home-page {
 
-}
-
-.navibar {
-  background-color: white;
+.naviebar, footer {
+  background-color: rgb(160, 196, 184)
+  
 }
 
 #projects, #tools, #contactme {
@@ -40,9 +38,16 @@ body {
 
 footer {
   line-height: .5;
+  font-size: .75rem;
 }
 
-#profilepic {
-  width: 500%;
 
+#profilepic {
+  width: 50%;
+  height: 50%;
+
+}
+
+.card-body {
+  background-color: rgb(160, 196, 184);
 }

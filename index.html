@@ -8,15 +8,15 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Josefin+Sans&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="index.css">
 
   <title>First Capstone Project</title>
 </head>
 <body>
   <!-- navbar start -->
-  <nav class="navibar fixed-top navbar navbar-expand-md navbar-light">
-    <h3 class="myName">Aldrin Guzon</h3>
+  <nav class="naviebar fixed-top navbar navbar-expand-md navbar-light p-1">
+    <h2 class="myName">Aldrin Guzon</h3>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -39,82 +39,110 @@
   </nav>
   <!-- navbar end -->
 
-  <!-- home page start -->
-  <div id="home" class="home-page container-fluid pt-5 pb-5">
-    <div class="row pt-5">
-      <div class="col-md-3">
-        <div class="d-flex justify-content-center">
-          <img id="profilepic" src="images/profilepic.png" alt="" class="rounded-circle img-fluid border border-light">
-        </div>
-        <div class="d-flex justify-content-center mt-3">
-          <h5 class="">Full Stack Web Developer</h5>
-        </div>
+  <!-- about me start -->
+  <div id="home" class="container-fluid pt-5">
+    <div class="d-flex align-items-center pt-5 flex-column flex-md-row">
+      <div class="col-sm-10 col-md-6 text-center">
+        <img id="profilepic" src="images/profilepic.png" alt="profilepic" class="rounded-circle img-fluid border border-light">
+        <p>Full Stack Web Developer</p>
       </div>
-      <div class="d-flex col-md-6 mt-4 ml-3 align-items-center">
-        <h1 class="title">Hey there, my name is Aldrin. I am an aspiring full stack web developer. Currently, I'm working as Content Editor at Reed Elsevier Shared Services Philippines.</h1>
+
+      <div class="col-md-5 col-sm-10">
+        <h1 class="title">Hey there,</h1>
+        <h5 class="subtitle">My name is Aldrin</h5>
+        <p class="description">I am an aspiring software engineer. I am currently working as a Content Editor for Reed Elsevier Shared Services Philippines, Quezon City, Manila. The work that I do involves providing solutions to businesses, satisfying and presenting products of value to customers. I love to learn and try out new things and I that's why I've decided to switch career and pursue coding. Since coding and web development is a never-ending process, I believe my career growth and development for this field wil be endless and exciting.
+
       </div>
-    </div>
+    </div> 
   </div>
-  <!-- home page end -->
+  <!-- about me end -->  
 
   <!-- projects start -->
-  <div class="container-fluid pt-5 pb-5 bg-light">
-    <h2 id="projects" class="text-center">Projects</h2>
-    <div class="d-md-flex justify-content-md-around mt-5 text-center">
-
-      <div class="card col-8 col-md-3 p-0 offset-md-0 offset-2 mt-4 border border-dark rounded">
-        <img src="images/todolist.jpg" class="card-img-top img-fluid p-3" alt="...">
-        <div class="card-body">
-          <h3>To-Do-List</h3>
-          <p class="card-text">A to-do list is simply a list of all of the tasks you need to complete during a particular period of time.</p>
+ 
+  <div id="projects" class="d-flex flex-column p-5 text-center">
+    <h1 class="text-center">Projects</h1>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+  
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card">
+            <img src="images/todolist.jpg" class="card-img-top img-fluid p-3 bg-dark" alt="todo">
+            <div class="card-body">
+              <h4>To-Do-List</h4>
+              <p class="card-text">A to-do list is simply a list of all of the tasks you need to complete during a particular period of time.</p>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="card col-8 col-md-3 p-0 offset-md-0 offset-2 mt-4 border border-dark rounded">
-        <img src="images/groceries.jpg" class="card-img-top img-fluid p-3" alt="...">
-        <div class="card-body">
-          <h3>Shopping Cart</h3>
-          <p class="card-text">A simple shopping cart for a retailer's site for commercial use.</p>
+  
+        <div class="carousel-item">
+          <div class="card">
+            <img src="images/groceries.jpg" class="card-img-top img-fluid p-3 bg-dark" alt="todo">
+            <div class="card-body">
+              <h4>Shopping Cart</h4>
+              <p class="card-text">A simple shopping cart for a retailer's site for commercial use.</p>
+            </div>
+          </div>
         </div>
-      </div>
-
-      <div class="card col-8 col-md-3 p-0 offset-md-0 offset-2 mt-4 border border-dark rounded">
-        <img src="images/deckofcards.jpg" class="card-img-top img-fluid p-3" alt="...">
-        <div class="card-body">
-          <h3>Black Jack</h3>
-          <p class="card-text">A gambling card game popular in casinos throughout the world.</p>
+  
+        <div class="carousel-item">
+          <div class="card">
+            <img src="images/deckofcards.jpg" class="card-img-top img-fluid p-3 bg-dark" alt="todo">
+            <div class="card-body">
+              <h4>Black Jack</h4>
+              <p class="card-text">A gambling card game popular in casinos throughout the world.</p>
+            </div>
+          </div>
         </div>
+  
       </div>
-
+      <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
     </div>
+
   </div>
-  <!-- projects end -->
+   <!-- projects end -->
+
 
   <!-- tools start -->
+  
   <div class="container-fluid p-4">
     <h2 id="tools" class="text-center mb-5">Tools </h2>
-    <div class="d-flex flex-md-column flex-sm-row offset-sm-2 offset-md-0">
-                 
-      <div class="d-md-flex justify-content-around col-md-12 col-sm-5">
+    <div class="">
+      <h3 class="text-center">Front-end</h3>          
+      <div class="d-flex justify-content-around flex-column flex-md-row align-items-center">
           <img src="images/html-5.png" class="img-fluid p-3"/>
           <img src="images/css.png" class="img-fluid p-3"/>
           <img src="images/javascript.svg" class="img-fluid p-3"/>
           <img src="images/bootstrap.png" class="img-fluid p-3"/>
       </div> 
-               
-      <div class="d-md-flex justify-content-around col-md-12 col-sm-5">
+      <h3 class="text-center">Others</h3>         
+      <div class="d-flex justify-content-around flex-column flex-md-row align-items-center">
           <img src="images/nodejs.png" class="img-fluid p-3"/>
           <img src="images/react.png" class="img-fluid p-3"/>
           <img src="images/mongodb.png" class="img-fluid p-3"/>
       </div>
     </div>
   </div>
+
+
   <!-- tools end -->
+
 
 
   <!-- form start -->
 
-  <div class="bg-light pt-5 pb-5">
+  <div class="pt-5 pb-5">
     <!-- contact start -->
     <div class="container-fluid p-1">
       <h2 id="contactme" class="text-center">Contact Me</h2>
@@ -180,9 +208,9 @@
   <!-- end of modal -->
  
   <!-- footer start -->
-  <footer class="text-center pt-3 pb-3">
+  <footer class="text-center pb-1">
 
-    <h1 class="myName">Aldrin Guzon</h1>
+    <h2 class="myName">Aldrin Guzon</h1>
     <p>Full Stack Web Developer</p>
     <p>&#169; All Rights Reserved 2021</p>
 
